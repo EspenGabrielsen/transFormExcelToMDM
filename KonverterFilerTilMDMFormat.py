@@ -42,7 +42,7 @@ class transformExcel:
                 self.ws = None
 
     def setupNewFile(self):
-        self.new_wb = openpyxl.load_workbook("sdfa.xlsx") # legg inn path til mal Thor Isum
+        self.new_wb = openpyxl.load_workbook(r"sdfa.xlsx") # legg inn path til mal Thor Isum
         newsheet = self.RowsConfig.get("OutSheet") or self.new_wb.active.title
         #if not newsheet in self.new_wb.worksheets:
         #    print(newsheet)     
