@@ -1,6 +1,6 @@
 {
     "startrow": 4,
-    "readSheet": "Entities",
+    "readSheet": "Data",
     "outPutRow": 3,
     "PrimarKeyColumn": "A",
     "OutSheet": "Entities",
@@ -21,7 +21,7 @@
                 "targetColumn": "J"
             },
             "C": {
-                "targetColumn": "K"
+                "targetColumn": ["O","P"]
             },
             "D": {
                 "targetColumn": "L"

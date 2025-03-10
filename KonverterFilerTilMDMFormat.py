@@ -42,7 +42,7 @@ class transformExcel:
                 self.ws = None
 
     def setupNewFile(self):
-        self.new_wb = openpyxl.load_workbook(r"sdfa.xlsx") # legg inn path til mal Thor Isum
+        self.new_wb = openpyxl.load_workbook(r"C:\Users\E1732506\Downloads\3e37eb57-6054-43b1-baa9-8b510a4f61e9_out.xlsm") # legg inn path til mal Thor Isum
         newsheet = self.RowsConfig.get("OutSheet") or self.new_wb.active.title
         #if not newsheet in self.new_wb.worksheets:
         #    print(newsheet)     
@@ -66,10 +66,19 @@ class transformExcel:
                         or self.ws[col + str(self.StartRow + row)].value
                     ) # try to set default value, if not checks cell
                     if valueToPlace:
-                        self.new_ws[
-                            self.rowSelected[col].get("targetColumn")
-                            + str(self.NewWorkBookCurrentRow)
-                        ] = valueToPlace  # writes valueToPlace to New WB
+                        variabeler = self.rowSelected[col].get("targetColumn")
+                        if isinstance(variabeler,list):
+                            for variabel in variabeler:
+                                self.new_ws[
+                                    variabel
+                                    + str(self.NewWorkBookCurrentRow)
+                                ] = valueToPlace  # writes valueToPlace to New WB
+                        else:
+                            self.new_ws[
+                                    variabeler
+                                    + str(self.NewWorkBookCurrentRow)
+                                ] = valueToPlace  # writes valueToPlace to New WB
+                            
                     if (self.skipRowIfMissingFlagg and not valueToPlace):
                         self.errors.append(f"Skipping row {i} {col}{self.StartRow + row} is missing given")
                         self.skippedRows -= 1 # decreasing the row counter so next row will not go passed the current
