@@ -1,0 +1,128 @@
+{
+    "startrow": 4,
+    "readSheet": "Data",
+    "outPutRow": 3,
+    "PrimarKeyColumn": "A",
+    "OutSheet": "Entities",
+    "Rows": [
+        {
+            "type": {
+                "Value": "item",
+                "targetColumn": "B"
+            },
+            "AP": {
+                "mandatory": true,
+                "targetColumn": "G"
+            },
+            "B": {
+                "targetColumn": "H"
+            },
+            "A": {
+                "targetColumn": "J"
+            },
+            "C": {
+                "targetColumn": "K"
+            },
+            "D": {
+                "targetColumn": "L"
+            },
+            "AY": {
+                "targetColumn": "M"
+            },
+            "F": {
+                "targetColumn": "N"
+            },
+            "AQ": {
+                "targetColumn": "AA"
+            },
+            "AR": {
+                "targetColumn": "AB"
+            },
+            "AS": {
+                "targetColumn": "AC"
+            },
+            "AT": {
+                "targetColumn": "AD"
+            },
+            "AU": {
+                "targetColumn": "AE"
+            },
+            "AV": {
+                "targetColumn": "AF"
+            },
+            "AW": {
+                "targetColumn": "AG"
+            }
+        },
+        {
+            "type": {
+                "Value": "tradeitem",
+                "targetColumn": "B"
+            },
+            "AP": {
+                "mandatory": true,
+                "targetColumn": "G"
+            },
+            "B": {
+                "targetColumn": "H"
+            },
+            "A": {
+                "targetColumn": "J"
+            },
+            "C": {
+                "targetColumn": "K"
+            },
+            "D": {
+                "targetColumn": "L"
+            },
+            "G": {
+                "targetColumn": "O"
+            },
+            "I": {
+                "targetColumn": "Q"
+            },
+            "K": {
+                "targetColumn": "S"
+            },
+            "L": {
+                "targetColumn": "T"
+            },
+            "M": {
+                "targetColumn": "U"
+            },
+            "N": {
+                "targetColumn": "V"
+            },
+            "forpakingsenhet": {
+                "Value": "PAK",
+                "targetColumn": "O"
+            }
+        },
+        {
+            "type": {
+                "Value": "tradeitem",
+                "targetColumn": "B"
+            },
+            "AP": {
+                "mandatory": true,
+                "targetColumn": "G"
+            },
+            "B": {
+                "targetColumn": "H"
+            },
+            "A": {
+                "targetColumn": "J"
+            },
+            "C": {
+                "targetColumn": "K"
+            },
+            "D": {
+                "targetColumn": "L"
+            },
+            "forpakingsenhet": {
+                "Value": "PAL",
+                "targetColumn": "O"
+            }
+        }
+    ]
+}
