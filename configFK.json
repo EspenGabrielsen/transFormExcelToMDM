@@ -121,7 +121,7 @@
             },
             "forpakingsenhet": {
                 "Value": "PAL",
-                "targetColumn": "O"
+                "targetColumn": "KK"
             }
         }
     ]
