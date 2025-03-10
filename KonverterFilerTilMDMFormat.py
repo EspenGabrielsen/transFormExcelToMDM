@@ -42,11 +42,11 @@ class transformExcel:
                 self.ws = None
 
     def setupNewFile(self):
-        self.new_wb = openpyxl.Workbook()
+        self.new_wb = openpyxl.load_workbook("sdfa.xlsx") # legg inn path til mal Thor Isum
         newsheet = self.RowsConfig.get("OutSheet") or self.new_wb.active.title
-        if not newsheet in self.new_wb.worksheets:
-            print(newsheet)     
-            self.new_wb.create_sheet(newsheet, 0)
+        #if not newsheet in self.new_wb.worksheets:
+        #    print(newsheet)     
+        #    self.new_wb.create_sheet(newsheet, 0)
         self.new_ws = self.new_wb[newsheet]
 
     def readAndWriteExcel(self):
