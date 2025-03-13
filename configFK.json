@@ -1,5 +1,5 @@
 {
-    "startrow": 4,
+    "startrow": 2,
     "readSheet": "Data",
     "outPutRow": 3,
     "PrimarKeyColumn": "A",
@@ -10,47 +10,111 @@
                 "Value": "item",
                 "targetColumn": "B"
             },
-            "AP": {
-                "mandatory": true,
-                "targetColumn": "G"
-            },
-            "B": {
-                "targetColumn": "H"
-            },
             "A": {
                 "targetColumn": "J"
             },
-            "C": {
-                "targetColumn": ["O","P"]
-            },
-            "D": {
-                "targetColumn": "L"
-            },
-            "AY": {
-                "targetColumn": "M"
-            },
-            "F": {
+            "B": {
                 "targetColumn": "N"
             },
+            "C": {
+                "targetColumn": "O"
+            },
+            "D": {
+                "targetColumn": "P"
+            },
+            "F": {
+                "targetColumn": "R"
+            },
+            "G": {
+                "targetColumn": "S"
+            },
+            "H": {
+                "targetColumn": "T"
+            },
+            "I": {
+                "targetColumn": "U"
+            },
+            "AH": {
+                "targetColumn": "AI"
+            },
+            "AI": {
+                "targetColumn": "AJ"
+            },
+            "AJ": {
+                "targetColumn": "AK"
+            },
+            "AK": {
+                "targetColumn": ["AL", "AM"]
+            },
+            "AL": {
+                "targetColumn": "AN"
+            },
+            "AM": {
+                "targetColumn": "AO"
+            },
+            "AN": {
+                "targetColumn": "AP"
+            },
+            "AO": {
+                "targetColumn": "AQ"
+            },
+            "AP": {
+                "targetColumn": "E"
+            },
             "AQ": {
+                "targetColumn": "F"
+            },
+            "Skal ha Sikkerhetsdatablad": {
+                "Value": "FALSE",
+                "targetColumn": "AR"
+            },
+            "Ytelseserklæring": {
+                "Value": "FALSE",
+                "targetColumn": "AS"
+            }
+
+        },
+        {
+            "type": {
+                "Value": "tradeitem",
+                "targetColumn": "B"
+            },
+            "Pakningsnummer": {
+                "Value": "1",
+                "targetColumn": "K"
+            },            
+            "A": {
+                "targetColumn": "J"
+            },
+            "B": {
+                "targetColumn": "N"
+            },
+            "E": {
+                "targetColumn": "Q"
+            },
+            "J": {
+                "mandatory":true,
+                "targetColumn": "V"
+            },
+            "K": {
+                "targetColumn": "W"
+            },
+            "L": {
+                "targetColumn": "X"
+            },
+            "M": {
+                "targetColumn": "Y"
+            },
+            "N": {
                 "targetColumn": "AA"
             },
-            "AR": {
-                "targetColumn": "AB"
-            },
-            "AS": {
+            "O": {
                 "targetColumn": "AC"
             },
-            "AT": {
-                "targetColumn": "AD"
-            },
-            "AU": {
+            "P": {
                 "targetColumn": "AE"
             },
-            "AV": {
-                "targetColumn": "AF"
-            },
-            "AW": {
+            "Q": {
                 "targetColumn": "AG"
             }
         },
@@ -59,43 +123,40 @@
                 "Value": "tradeitem",
                 "targetColumn": "B"
             },
-            "AP": {
-                "mandatory": true,
-                "targetColumn": "G"
-            },
-            "B": {
-                "targetColumn": "H"
-            },
+            "Pakningsnummer": {
+                "Value": "2",
+                "targetColumn": "K"
+            },      
             "A": {
                 "targetColumn": "J"
             },
-            "C": {
-                "targetColumn": "K"
+            "B": {
+                "targetColumn": "N"
             },
-            "D": {
-                "targetColumn": "L"
-            },
-            "G": {
-                "targetColumn": "O"
-            },
-            "I": {
-                "targetColumn": "Q"
-            },
-            "K": {
-                "targetColumn": "S"
-            },
-            "L": {
-                "targetColumn": "T"
-            },
-            "M": {
-                "targetColumn": "U"
-            },
-            "N": {
+            "R": {
+                "skipRowIfMissing":true,
                 "targetColumn": "V"
             },
-            "forpakingsenhet": {
-                "Value": "PAK",
-                "targetColumn": "O"
+            "S": {
+                "targetColumn": "W"
+            },
+            "T": {
+                "targetColumn": "X"
+            },
+            "U": {
+                "targetColumn": "Y"
+            },
+            "V": {
+                "targetColumn": "AA"
+            },
+            "W": {
+                "targetColumn": "AC"
+            },
+            "X": {
+                "targetColumn": "AE"
+            },
+            "Y": {
+                "targetColumn": "AG"
             }
         },
         {
@@ -103,25 +164,40 @@
                 "Value": "tradeitem",
                 "targetColumn": "B"
             },
-            "AP": {
-                "mandatory": true,
-                "targetColumn": "G"
-            },
-            "B": {
-                "targetColumn": "H"
-            },
+            "Pakningsnummer": {
+                "Value": "3",
+                "targetColumn": "K"
+            },      
             "A": {
                 "targetColumn": "J"
             },
-            "C": {
-                "targetColumn": "K"
+            "B": {
+                "targetColumn": "N"
             },
-            "D": {
-                "targetColumn": "L"
+            "Z": {
+                "skipRowIfMissing":true,
+                "targetColumn": "V"
             },
-            "forpakingsenhet": {
-                "Value": "PAL",
-                "targetColumn": "O"
+            "AA": {
+                "targetColumn": "W"
+            },
+            "AB": {
+                "targetColumn": "X"
+            },
+            "AC": {
+                "targetColumn": "Y"
+            },
+            "AD": {
+                "targetColumn": "AA"
+            },
+            "AE": {
+                "targetColumn": "AC"
+            },
+            "AF": {
+                "targetColumn": "AE"
+            },
+            "AG": {
+                "targetColumn": "AG"
             }
         }
     ]
